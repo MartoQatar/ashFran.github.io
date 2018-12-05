@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Talkative</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/round-about.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+  <!-- loading up all the audio-->
+  <audio id="alrightyThenAudio" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/Alrighty_then.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio id="toilet" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/toilet.mp3" type="audio/mpeg"> 
+  </audio>
+
+   <audio id="vomit" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/vomit.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio id="hospital" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/hospital.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio id="pain" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/pain.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio id="sick" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/sick.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio id="go" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/go.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio id="pillsmedicine" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/pillsmedicine.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio id="dying" preload="metadata"> <!--preload just makes it play on click faster-->
+    <source src="media/dying.mp3" type="audio/mpeg"> 
+  </audio>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Talkative</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Introduction Row -->
+      <h1 class="my-4" id="top">Categories</h1>
+
+      <!-- Team Members Row -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Siren" class="rounded-circle img-fluid d-block mx-auto" src="media/Siren.svg" onclick="document.getElementById('sirenUrgent').play()" alt="Menu 1">
+
+        <a href = "#go">
+        <h3>URGENT!</h3>
+        </a>
+
+        </div>
+
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Gears" class="rounded-circle img-fluid d-block mx-auto" src="media/Gears.svg" onclick="document.getElementById('chicken').play()" alt="">
+          <h3>Basic
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Colours" class="rounded-circle img-fluid d-block mx-auto" src="media/Colours.svg" onclick="document.getElementById('alrightyThenAudio').play()" alt="">
+          <h3>Colours
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "happydude" class="rounded-circle img-fluid d-block mx-auto" src="media/happydude.svg" onclick="document.getElementById('alrightyThenAudio').play()" alt="">
+          <h3>Feelings
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "food" class="rounded-circle img-fluid d-block mx-auto" src="media/food.svg" onclick="document.getElementById('alrightyThenAudio').play()" alt="">
+          <h3>Food & Drink
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "actions" class="rounded-circle img-fluid d-block mx-auto" src="media/actions.svg" onclick="document.getElementById('alrightyThenAudio').play()" alt="">
+          <h3>Actions
+      </div>
+
+    </div>
+
+    <div class="w3-row-padding w3-center" id="#go">
+    <h3 class="w3-center">URGENT!</h3>
+
+     <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Gears" class="roun[ded-circle img-fluid d-block mx-auto" src="media/vomit.svg" onclick="document.getElementById('vomit').play()" alt="">
+          <h3>Vomit<h3>
+        </div>
+
+
+ <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "toilet" class="roun[ded-circle img-fluid d-block mx-auto" src="media/toilet.svg" onclick="document.getElementById('toilet').play()" alt="">
+          <h3>Toilet<h3>
+        </div>
+  
+  <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Hospital" class="roun[ded-circle img-fluid d-block mx-auto" src="media/hospital.svg" onclick="document.getElementById('hospital').play()" alt="">
+          <h3>Hospital<h3>
+        </div>
+
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Pain" class="roun[ded-circle img-fluid d-block mx-auto" src="media/pain.svg" onclick="document.getElementById('pain').play()" alt="">
+          <h3>Pain<h3>
+        </div>
+  
+<div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Sick" class="roun[ded-circle img-fluid d-block mx-auto" src="media/sick.svg" onclick="document.getElementById('sick').play()" alt="">
+          <h3>Sick<h3>
+        </div>
+  
+ <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "Go" class="roun[ded-circle img-fluid d-block mx-auto" src="media/go.svg" onclick="document.getElementById('go').play()" alt="">
+          <h3>Go<h3>
+        </div>
+  
+  <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "pills/medicine" class="roun[ded-circle img-fluid d-block mx-auto" src="media/pills-medicine.svg" onclick="document.getElementById('pillsmedicine').play()" alt="">
+          <h3>Pills/Medicine<h3>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img id = "dying" class="roun[ded-circle img-fluid d-block mx-auto" src="media/dying.svg" onclick="document.getElementById('dying').play()" alt="">
+          <h3>Dying<h3>
+        </div>
+  
+</div>
+ 
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <a href="#top">
+        <p class="m-0 text-center text-white">Copyright &copy; Talkative 2018</p>
+      </a>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
